@@ -5,3 +5,22 @@ This repo contains a prometheus demo setup with [Docker Compose](https://docs.do
 * [Prometheus](https://prometheus.io)
 * [Grafana](https://grafana.com)
 * [Micronaut Petstore](https://github.com/micronaut-projects/micronaut-examples)
+
+## Usage
+
+Start setup
+
+```bash
+docker-compose up -d
+```
+
+* Micronaut Petstore Storefront: <http://localhost:8080>
+* Micronaut Petstore Frontend: <http://localhost:3000>
+* Grafana (Login admin/admin): <http://localhost:3001>
+* Prometheus: <http://localhost:9090>
+
+Stop
+
+```bash
+docker-compose down
+```
